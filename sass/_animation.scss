@@ -1,0 +1,22 @@
+@keyframes moveLeft {
+  0% {
+    transform: translateX(150rem);
+  }
+
+  50% {
+    transform: translateX(-5rem);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}

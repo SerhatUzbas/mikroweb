@@ -1,0 +1,10 @@
+.container {
+  position: relative;
+  display: grid;
+  grid-template-rows: 25vh 80vh repeat(4, min-content);
+  grid-row-gap: 4rem;
+
+  grid-template-columns:
+    minmax(11rem, 1fr) [center-start] repeat(8, minmax(min-content, 14rem))
+    [center-end] minmax(11rem, 1fr);
+}
